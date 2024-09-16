@@ -1,0 +1,41 @@
+/* Centralizar o conteúdo da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: darkgreen; /* Cor de fundo suave (Azul Alice) */
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor do texto */
+}
+
+/* Estilizar o container de conteúdo */
+h1 {
+    text-align: center;
+    color: white; /* Cor do título */
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #3498db; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9; /* Cor ao passar o mouse sobre o botão */
+}
+
+/* Adicionar estilo ao texto do alerta */
+.alerta {
+    text-align: center;
+    color: #e74c3c;
+}
